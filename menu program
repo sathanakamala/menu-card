@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+   int menu;
+   
+   
+   printf("\n  FOOD ITEM    PRICE");
+   printf("\n1.Pizza        Rs.239");
+   printf("\n2.Burger       Rs.129");
+   printf("\n3.Pasta        Rs.179");
+   printf("\n4.French Fries Rs.99");
+   printf("\n5.Sandwich     Rs.149");
+   printf("\nEnter the food item number to be ordered from the given menu above:");
+   scanf("%d",&menu);
+   
+   switch(menu)
+   {
+       case 1:
+         printf("\nFood item: Pizza\nPrice:  Rs.239");
+         break;
+      
+       case 2: 
+         printf("\nFood item: Burger\nPrice:  Rs.129");
+         break;
+         
+       case 3:
+         printf("\nFood item: Pasta\nPrice:  Rs.179");
+         break;
+       
+       case 4:
+         printf("\nFood item:  French Fries\nPrice: Rs.99");
+         break;
+         
+       case 5:
+         printf("\nFood item:  Sandwich\nPrice:  Rs.149");
+         break;
+         
+    }
+   
+  return 0;
+}
